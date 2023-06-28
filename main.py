@@ -87,4 +87,7 @@ def image_upload():
                 os.remove(enhanced_temp_file.name)
 
 
-image_upload()
+try:
+    image_upload()
+except:
+    pass
